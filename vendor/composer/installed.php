@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'hezzyt/lab-4',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'fd17acc09fbd55599f4d5bc704f8e86a3daaaeea',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'hezzyt/lab-4' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'fd17acc09fbd55599f4d5bc704f8e86a3daaaeea',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -51,6 +51,24 @@
             'provided' => array(
                 0 => '1.0',
             ),
+        ),
+        'respect/stringifier' => array(
+            'pretty_version' => '0.2.0',
+            'version' => '0.2.0.0',
+            'reference' => 'e55af3c8aeaeaa2abb5fa47a58a8e9688cc23b59',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../respect/stringifier',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'respect/validation' => array(
+            'pretty_version' => '2.4.4',
+            'version' => '2.4.4.0',
+            'reference' => 'f13f10f19978aea33af2a102a2f58f2db1e63619',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../respect/validation',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/clock' => array(
             'pretty_version' => 'v7.3.0',
