@@ -1,0 +1,17 @@
+{
+    "name": "hezzyt/lab-4",
+    "autoload": {
+        "psr-4": {
+            "Hezzyt\\Lab4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HEEZYT",
+            "email": "Andrij.lunnuk2@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^3.10"
+    }
+}
